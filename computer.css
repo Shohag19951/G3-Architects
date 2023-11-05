@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open san', sans-serif;
+}
+/* header */
+header{
+    background-color: bisque;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.ini-tit{
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.cont{
+    display: flex;
+}
+.menu{
+    padding-left: 720px;
+ padding-top: 25px;  
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+.menu a:hover{
+    background-color: gray;
+    border-radius: 20px;
+}
+.tit-container{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin: 0px 80px;
+    text-align: center;
+}
+.cont-tit{
+    font-weight: 600;
+    font-size: 50px;  
+}
+.cont-text{
+    padding: 20px 300px 15px 300px;
+   
+    font-size: 15px;
+}
+.bt-primary{
+    background-color:orangered;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    margin: auto;
+}
+.img-banner{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+/*Quick list*/
+.quick-list{
+    margin-top: 50px;
+    display: flex;
+}
+.image{
+    padding: 5px 5px 5px 5px;
+}
+.grp-1{
+    display: flex;
+}
+.grp-2{
+   display: flex;   
+}
+.img-container{
+    margin-left: 100px;
+}
+.quick-container{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin: 0px 80px;
+}
+.quick-tit{
+    padding-right: 270px;
+    font-weight: 600;
+    font-size: 40px;  
+    text-align: left;
+}
+.quick-text{
+    margin: 15px 0px 15px;
+    padding-right: 80px;
+    padding-left: 100px;
+    text-align: left;
+}
+.highlight{
+    color: gray;
+}
+.highlight-1{
+    color: rgb(238, 120, 24);
+}
+.bt-primary1{
+    background-color:orangered;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: 2px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 450px;
+}
+    
+
+/* feature */
+
+.feature{
+    display: flex;
+}
+.feat-tit{
+    padding-right: 350px;
+    margin: 60px 50px 30px;
+    font-weight: 600;
+    font-size: 40px; 
+    text-align: left;
+}
+.feat-text{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-right: 150px;
+    text-align: left;
+    
+}
+.feature{
+    display: flex;
+}
+.sub-tit{
+    font-size: 20px;
+    font-weight: 600px; 
+    margin:20px 50px 10px; 
+}
+.sub-txt{
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.img-arc{
+    height: 700px;
+    width: 500px; 
+    margin-top: 150px;
+    margin-right: 50px; 
+}
+.passage{
+    background-color: white;
+     box-shadow: 0px 6px 20px rgba(212, 205, 205, 0.952);
+     margin: 30px 150px 20px 50px; 
+     padding-top: 2px;
+    padding-bottom: 20px;
+   
+}
+.experience{
+    position: absolute;
+    padding: 10px;
+    bottom: -1550px;
+    left: 700px;
+   background-color: rgb(243, 169, 9);
+   border-radius: 10px;
+
+}
+.exp-tit{
+  padding-top: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 50px; 
+    text-align: center;
+}
+.exp-text{
+    color: white;
+    font-size: 15px;
+   text-align: center;
+}
+
+/*some-facts*/
+.fact-tit{
+    text-align: left;
+    padding-right: 250px;
+    margin: 60px 70px 10px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.fact-text{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-right: 650px;   
+}
+.award{
+ border: 1px inset red;
+ text-align: center;
+ width: 12%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ 
+}
+.icon{
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+    margin-left: 270px;
+}
+/* Our Sponsor */
+.spon-tit{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px; 
+}
+.spon-text{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 350px 30px 350px;
+}
+.spon-img{
+    height: 35px;
+}
+.s-icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 150px;    
+}
+.footer{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: 70px;
+    margin-right: 170px;
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
