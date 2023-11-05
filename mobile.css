@@ -72,9 +72,6 @@ header{
     margin-top: 50px;
    
 }
-.img-container{
-  padding-left: 45px; 
-}
 .image{
     padding: 5px 5px 5px 5px;
 }
@@ -226,12 +223,12 @@ header{
     padding: 20px 30px 10px 30px;
 }
 .spon-img{
-    height: 23px;
+    height: 15px;
 }
 .s-icon{
     margin-top: 35px;
     display: flex;
-    gap: 15px;  
+    gap: 10px;  
     justify-content: center;
 }
 .footer{
